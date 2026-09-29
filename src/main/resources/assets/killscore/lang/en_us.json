@@ -1,0 +1,17 @@
+{
+  "killscore.popup.kill": "Kill",
+  "killscore.popup.headshot": "Headshot",
+  "killscore.popup.longshot": "Longshot",
+  "killscore.popup.pointblank": "Point Blank",
+  "killscore.popup.noscope": "No-Scope",
+  "killscore.popup.quickscope": "Quickscope",
+  "killscore.popup.spin360": "360 No-Scope",
+  "killscore.popup.firstblood": "First Blood!",
+  "killscore.popup.revenge": "Payback!",
+  "killscore.popup.double": "Double Kill",
+  "killscore.popup.triple": "Triple Kill",
+  "killscore.popup.multi": "Multi Kill x%s",
+  "killscore.popup.streak": "Killstreak x%s",
+  "killscore.hud.score": "SCORE %s",
+  "killscore.command.reset": "Kill score round has been reset"
+}

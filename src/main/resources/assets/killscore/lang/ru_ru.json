@@ -1,0 +1,17 @@
+{
+  "killscore.popup.kill": "Убийство",
+  "killscore.popup.headshot": "Выстрел в голову",
+  "killscore.popup.longshot": "Дальний выстрел",
+  "killscore.popup.pointblank": "В упор",
+  "killscore.popup.noscope": "Без прицела",
+  "killscore.popup.quickscope": "Квикскоп",
+  "killscore.popup.spin360": "360 без прицела",
+  "killscore.popup.firstblood": "Первая кровь!",
+  "killscore.popup.revenge": "Расплата!",
+  "killscore.popup.double": "Двойное убийство",
+  "killscore.popup.triple": "Тройное убийство",
+  "killscore.popup.multi": "Мульти-убийство x%s",
+  "killscore.popup.streak": "Серия убийств x%s",
+  "killscore.hud.score": "ОЧКИ %s",
+  "killscore.command.reset": "Раунд очков за убийства сброшен"
+}

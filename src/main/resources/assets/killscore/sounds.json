@@ -1,0 +1,14 @@
+{
+  "firstblood":  { "sounds": [ "killscore:firstblood" ] },
+  "spin360":     { "sounds": [ "killscore:360noscope" ] },
+  "streak":      { "sounds": [ "killscore:killstreak" ] },
+  "multikill":   { "sounds": [ "killscore:multikill" ] },
+  "triplekill":  { "sounds": [ "killscore:3kill" ] },
+  "doublekill":  { "sounds": [ "killscore:2kill" ] },
+  "quickscope":  { "sounds": [ "killscore:quickscope" ] },
+  "noscope":     { "sounds": [ "killscore:no-scope" ] },
+  "payback":     { "sounds": [ "killscore:payback" ] },
+  "longshot":    { "sounds": [ "killscore:longshot" ] },
+  "pointblank":  { "sounds": [ "killscore:pointblank" ] },
+  "headshot":    { "sounds": [ "killscore:headshot" ] }
+}
