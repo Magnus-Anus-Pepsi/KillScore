@@ -25,8 +25,8 @@ jobs:
 
     - name: Download TACZ
       run: |
-        cd libs
-        curl -L -o tacz-1.1.8_mapped_official_1.20.1.jar "https://github.com/Timeless-and-Classics-Zero/Timeless-and-Classics-Zero/releases/download/v1.1.8/Timeless-and-Classics-Zero-1.20.1-1.1.8.jar"
+        mkdir -p libs
+        curl -L -o libs/tacz-1.1.8_mapped_official_1.20.1.jar "https://www.dropbox.com/scl/fi/6iqh4wqd4vhwctwrsd1ug/tacz-1.1.8.jar?rlkey=g5txmtq2wt271xt8tj7p4d4im&st=ywi8xyux&dl=1"
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
