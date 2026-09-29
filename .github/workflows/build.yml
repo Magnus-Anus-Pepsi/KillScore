@@ -3,36 +3,29 @@ name: Build Mod
 on:
   push:
     branches: [ "main", "master" ]
-  pull_request:
-    branches: [ "main", "master" ]
-  workflow_dispatch: # Позволяет запускать сборку вручную из меню
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
-    # 1. Скачиваем ваш код
     - name: Checkout code
       uses: actions/checkout@v4
 
-    # 2. Устанавливаем Java (замените 21 на 17, если мод для старых версий MC)
     - name: Set up JDK 21
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v5
       with:
         java-version: '21'
         distribution: 'temurin'
         cache: gradle
 
-    # 3. Даем права на выполнение скрипту gradlew
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    # 4. Собираем мод
     - name: Build with Gradle
       run: ./gradlew build
 
-    # 5. Сохраняем готовый .jar как артефакт
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
